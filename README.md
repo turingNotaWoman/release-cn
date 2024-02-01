@@ -1,5 +1,5 @@
 # release-cn
-
+` npm publish ` 工具中文版/ Chinese
 ## start
 ```
 npm install release-cn -D

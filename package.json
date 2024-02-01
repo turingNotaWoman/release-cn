@@ -1,6 +1,6 @@
 {
   "name": "release-cn",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "npm publish中文版工具",
   "main": "./index.js",
   "bin": {
