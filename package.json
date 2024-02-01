@@ -1,0 +1,47 @@
+{
+  "name": "release-cn",
+  "version": "0.0.2",
+  "description": "npm publish中文版工具",
+  "main": "./index.js",
+  "bin": {
+    "release-cn": "./index.js"
+  },
+  "files": [
+    "*.js",
+    "*.md",
+    "lib"
+  ],
+  "exports": {
+    ".": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish:pkg": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/turingNotaWoman/release-cn"
+  },
+  "homepage": "https://github.com/turingNotaWoman/release-cn#readme",
+  "bugs": "https://github.com/turingNotaWoman/release-cn/issues",
+  "keywords": [
+    "tools",
+    "npm",
+    "node",
+    "client",
+    "publish",
+    "release",
+    "chinese",
+    "prompt"
+  ],
+  "author": "feenyhe",
+  "license": "ISC",
+  "dependencies": {},
+  "peerDependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "inquirer": "^8.2.6",
+    "ora": "^5.4.1",
+    "semver": "^7.5.4"
+  }
+}
